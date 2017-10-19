@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   spec.framework  = "UIKit"
   spec.requires_arc = true
 
-  spec.subspec 'FXUtil' do |util|
-    util.source_files = "FXKit/FXUtil/*.{h,m}"
+  spec.subspec 'Util' do |util|
+    util.source_files = "FXKit/Util/*.{h,m}"
   end
 
 end
