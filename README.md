@@ -9,6 +9,8 @@
   - Category: 类别
     - NSPrefix:
       NSTimer+FXWeakTarget: 不会强引用Target的NSTimer. Target释放时会会自动失效Timer.
+      NSArray+Rearrange: 数组倒叙, 去重.
+      NSUserDefaults+SynchronizeSetter: 提供"setObject:forKey:"的同步方法.
     - CAPrefix:
       CADisplayLink+FXWeakTarget: 不会强引用Target的DisplayLink. Target释放时会还会自动失效CADisplayLink.
 ```
