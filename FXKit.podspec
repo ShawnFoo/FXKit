@@ -15,8 +15,18 @@ Pod::Spec.new do |spec|
   spec.framework  = "UIKit"
   spec.requires_arc = true
 
-  spec.subspec 'Util' do |util|
-    util.source_files = "FXKit/Util/*.{h,m}"
+  spec.subspec 'Util' do |ss|
+    ss.source_files = "FXKit/Util/*.{h,m}"
+  end
+
+  spec.subspec 'Category' do |ss|
+    ss.subspec 'NSPrefix' do |sss|
+      sss.source_files = "FXKit/Category/NSPrefix/*.{h,m}"
+    end
+
+    ss.subspec 'CAPrefix' do |sss|
+      sss.source_files = "FXKit/Category/CAPrefix/*.{h,m}"
+    end
   end
 
 end
