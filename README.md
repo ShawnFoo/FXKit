@@ -6,6 +6,8 @@
 - FXKit
   - Util: 工具类
     FXFileUtil: 文件路径获取; 文件创建、删除、是否存在; 文件大小, 输出格式化等;
+  - Enhancement: 功能增强
+    FXReuseObjectQueue: 通用复用队列
   - Category: 类别
     - NSPrefix:
       NSTimer+FXWeakTarget: 不会强引用Target的NSTimer. Target释放时会会自动失效Timer.

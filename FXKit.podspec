@@ -11,8 +11,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "8.0"
 
   spec.source       = { :git => "https://github.com/ShawnFoo/FXKit.git", :tag => "v#{spec.version.to_s}" }
-  #spec.source_files  = "FXKit/*.{h,m}"
-  spec.framework  = "UIKit"
+  spec.framework  = "UIKit, QuartzCore"
   spec.requires_arc = true
 
   spec.subspec 'Util' do |ss|
@@ -27,6 +26,10 @@ Pod::Spec.new do |spec|
     ss.subspec 'CAPrefix' do |sss|
       sss.source_files = "FXKit/Category/CAPrefix/*.{h,m}"
     end
+  end
+
+  spec.subspec 'Enhancement' do |ss|
+    ss.source_files = "FXKit/Enhancement/*.{h,m}"
   end
 
 end
