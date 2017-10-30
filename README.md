@@ -6,6 +6,7 @@
 - FXKit
   - Util: 工具类
     FXFileUtil: 文件路径获取; 文件创建、删除、是否存在; 文件大小, 输出格式化等;
+    FXDateUtil: 各种日期的获取方法; 日期的格式化方法;
   - Enhancement: 功能增强
     FXReuseObjectQueue: 通用复用队列
   - Category: 类别
