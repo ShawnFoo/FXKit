@@ -1,5 +1,5 @@
 //
-//  NSUserDefaults+SynchronizeSetter.h
+//  NSUserDefaults+FXSynchronizeSetter.h
 //  FXKit
 //
 //  Created by ShawnFoo on 2017/10/24.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSUserDefaults (SynchronizeSetter)
+@interface NSUserDefaults (FXSynchronizeSetter)
 
 - (BOOL)fx_syncSetObject:(nullable id)object forKey:(NSString *)key;
 

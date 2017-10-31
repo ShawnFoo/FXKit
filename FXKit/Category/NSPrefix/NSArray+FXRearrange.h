@@ -1,5 +1,5 @@
 //
-//  NSArray+Rearrange.h
+//  NSArray+FXRearrange.h
 //  FXKit
 //
 //  Created by ShawnFoo on 2017/10/24.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (Rearrange)
+@interface NSArray (FXRearrange)
 
 - (NSArray *)fx_reverse;
 - (NSArray *)fx_removeDuplicatedElements;

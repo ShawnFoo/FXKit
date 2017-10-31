@@ -1,5 +1,5 @@
 //
-//  UIView+OverlayCornerRadius.h
+//  UIView+FXOverlayCornerRadius.h
 //  FXKit
 //
 //  Created by ShawnFoo on 2017/10/17.
@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  不带size参数的方法, 会默认读取view.bounds.size作为遮罩层的大小
  */
-@interface UIView (OverlayCornerRadius)
+@interface UIView (FXOverlayCornerRadius)
 
 /**
  添加圆角遮罩层

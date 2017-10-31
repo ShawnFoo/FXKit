@@ -1,12 +1,12 @@
 //
-//  UIView+OverlayCornerRadius.m
+//  UIView+FXOverlayCornerRadius.m
 //  FXKit
 //
 //  Created by ShawnFoo on 2017/10/17.
 //  Copyright © 2017年 ShawnFoo. All rights reserved.
 //
 
-#import "UIView+OverlayCornerRadius.h"
+#import "UIView+FXOverlayCornerRadius.h"
 #import <objc/runtime.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -86,7 +86,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@implementation UIView (OverlayCornerRadius)
+@implementation UIView (FXOverlayCornerRadius)
 
 /** 圆角镂空图片缓存 */
 static NSCache<NSString *, UIImage *> *sOverlaysCache;

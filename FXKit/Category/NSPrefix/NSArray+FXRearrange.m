@@ -1,16 +1,14 @@
 //
-//  NSArray+Rearrange.m
+//  NSArray+FXRearrange.m
 //  FXKit
 //
 //  Created by ShawnFoo on 2017/10/24.
 //  Copyright © 2017年 ShawnFoo. All rights reserved.
 //
 
-#import "NSArray+Rearrange.h"
+#import "NSArray+FXRearrange.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@implementation NSArray (Rearrange)
+@implementation NSArray (FXRearrange)
 
 - (NSArray *)fx_reverse {
     return [[self reverseObjectEnumerator] allObjects];
@@ -22,5 +20,3 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 @end
-
-NS_ASSUME_NONNULL_END
