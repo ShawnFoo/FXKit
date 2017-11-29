@@ -25,8 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
  @param bgColor 视图的父view背景颜色
  */
 - (void)fx_cornerRadius:(CGFloat)radius
-            overlaySize:(CGSize)size
-             background:(UIColor *)bgColor;
+			overlaySize:(CGSize)size
+			 background:(UIColor *)bgColor;
 
 /**
  添加圆角遮罩层, 可指定形圆角位置
@@ -37,9 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param corners UIRectCorner视图的圆角位置
  */
 - (void)fx_cornerRadius:(CGFloat)radius
-            overlaySize:(CGSize)size
-             background:(UIColor *)bgColor
-         roudingCorners:(UIRectCorner)corners;
+			overlaySize:(CGSize)size
+			 background:(UIColor *)bgColor
+		 roudingCorners:(UIRectCorner)corners;
 
 
 /**
@@ -52,10 +52,10 @@ NS_ASSUME_NONNULL_BEGIN
  @param borderColor 边框颜色
  */
 - (void)fx_cornerRadius:(CGFloat)radius
-            overlaySize:(CGSize)size
-             background:(UIColor *)bgColor
-            borderWidth:(CGFloat)borderWidth
-            borderColor:(nullable UIColor *)borderColor;
+			overlaySize:(CGSize)size
+			 background:(UIColor *)bgColor
+			borderWidth:(CGFloat)borderWidth
+			borderColor:(nullable UIColor *)borderColor;
 
 
 /**
@@ -69,11 +69,11 @@ NS_ASSUME_NONNULL_BEGIN
  @param borderColor 边框颜色
  */
 - (void)fx_cornerRadius:(CGFloat)radius
-            overlaySize:(CGSize)size
-             background:(UIColor *)bgColor
-         roudingCorners:(UIRectCorner)corners
-            borderWidth:(CGFloat)borderWidth
-            borderColor:(nullable UIColor *)borderColor;
+			overlaySize:(CGSize)size
+			 background:(UIColor *)bgColor
+		 roudingCorners:(UIRectCorner)corners
+			borderWidth:(CGFloat)borderWidth
+			borderColor:(nullable UIColor *)borderColor;
 
 /**
  为size已经设置好的UIView添加圆角遮罩层
@@ -92,9 +92,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param borderColor 边框颜色
  */
 - (void)fx_cornerRadius:(CGFloat)radius
-             background:(UIColor *)bgColor
-            borderWidth:(CGFloat)borderWidth
-            borderColor:(nullable UIColor *)borderColor;
+			 background:(UIColor *)bgColor
+			borderWidth:(CGFloat)borderWidth
+			borderColor:(nullable UIColor *)borderColor;
 
 /**
  为size已经设置好的UIView添加圆角遮罩层, 可添加圆角边框(宽度, 颜色), 跟指定视图的圆角位置
@@ -106,10 +106,10 @@ NS_ASSUME_NONNULL_BEGIN
  @param borderColor 边框颜色
  */
 - (void)fx_cornerRadius:(CGFloat)radius
-             background:(UIColor *)bgColor
-         roudingCorners:(UIRectCorner)corners
-            borderWidth:(CGFloat)borderWidth
-            borderColor:(nullable UIColor *)borderColor;
+			 background:(UIColor *)bgColor
+		 roudingCorners:(UIRectCorner)corners
+			borderWidth:(CGFloat)borderWidth
+			borderColor:(nullable UIColor *)borderColor;
 
 @end
 
