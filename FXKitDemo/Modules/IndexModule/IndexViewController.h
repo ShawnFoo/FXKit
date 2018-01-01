@@ -1,0 +1,14 @@
+//
+//  ViewController.h
+//  FXKitDemo
+//
+//  Created by ShawnFoo on 2017/10/19.
+//  Copyright © 2017年 ShawnFoo. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface IndexViewController : UIViewController
+
+@end
+
