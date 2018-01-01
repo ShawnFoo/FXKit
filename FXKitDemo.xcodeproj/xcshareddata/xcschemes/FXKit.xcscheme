@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "292B29D51FFA7C2400036D0F"
-               BuildableName = "FXKitFramework.framework"
-               BlueprintName = "FXKitFramework"
+               BlueprintIdentifier = "294CEA511FFA931800E7F953"
+               BuildableName = "FXKit.framework"
+               BlueprintName = "FXKit"
                ReferencedContainer = "container:FXKitDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "292B29D51FFA7C2400036D0F"
-            BuildableName = "FXKitFramework.framework"
-            BlueprintName = "FXKitFramework"
+            BlueprintIdentifier = "294CEA511FFA931800E7F953"
+            BuildableName = "FXKit.framework"
+            BlueprintName = "FXKit"
             ReferencedContainer = "container:FXKitDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "292B29D51FFA7C2400036D0F"
-            BuildableName = "FXKitFramework.framework"
-            BlueprintName = "FXKitFramework"
+            BlueprintIdentifier = "294CEA511FFA931800E7F953"
+            BuildableName = "FXKit.framework"
+            BlueprintName = "FXKit"
             ReferencedContainer = "container:FXKitDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

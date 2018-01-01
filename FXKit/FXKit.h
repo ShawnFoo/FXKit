@@ -1,34 +1,21 @@
 //
 //  FXKit.h
-//  FXKitDemo
+//  FXKit
 //
-//  Created by ShawnFoo on 2018/1/1.
+//  Created by ShawnFoo on 2018/1/2.
 //  Copyright © 2018年 ShawnFoo. All rights reserved.
 //
 
-#ifndef FXKit_h
-#define FXKit_h
+#import <UIKit/UIKit.h>
 
-#pragma mark - Category
-#pragma mark CAPrefix
-#import "Category/CAPrefix/CADisplayLink+FXWeakTarget.h"
+//! Project version number for FXKit.
+FOUNDATION_EXPORT double FXKitVersionNumber;
 
-#pragma mark NSPrefix
-#import "Category/NSPrefix/NSArray+FXRearrange.h"
-#import "Category/NSPrefix/NSTimer+FXWeakTarget.h"
-#import "Category/NSPrefix/NSUserDefaults+FXSynchronizeSetter.h"
+//! Project version string for FXKit.
+FOUNDATION_EXPORT const unsigned char FXKitVersionString[];
 
-#pragma mark UIPrefix
-#import "Category/UIPrefix/UIView+FXOverlayCornerRadius.h"
+#import <FXKit/FXKitPublicHeader.h>
 
 
-#pragma mark - Enhancement
-#import "Enhancement/FXReuseObjectQueue.h"
 
 
-#pragma mark - Util
-#import "Util/FXDateUtil.h"
-#import "Util/FXFileUtil.h"
-#import "Util/FXPageUtil.h"
-
-#endif /* FXKit_h */

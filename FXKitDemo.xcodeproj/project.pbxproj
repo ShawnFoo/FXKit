@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		292B29DA1FFA7C2400036D0F /* FXKitFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29D81FFA7C2400036D0F /* FXKitFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		292B29DD1FFA7C2400036D0F /* FXKitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292B29D61FFA7C2400036D0F /* FXKitFramework.framework */; };
-		292B29DE1FFA7C2400036D0F /* FXKitFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 292B29D61FFA7C2400036D0F /* FXKitFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		292B29FB1FFA7C4600036D0F /* CADisplayLink+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29E51FFA7C4500036D0F /* CADisplayLink+FXWeakTarget.h */; };
-		292B29FC1FFA7C4600036D0F /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29E61FFA7C4500036D0F /* CADisplayLink+FXWeakTarget.m */; };
-		292B29FD1FFA7C4600036D0F /* NSArray+FXRearrange.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29E81FFA7C4500036D0F /* NSArray+FXRearrange.h */; };
-		292B29FE1FFA7C4600036D0F /* NSArray+FXRearrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29E91FFA7C4500036D0F /* NSArray+FXRearrange.m */; };
-		292B29FF1FFA7C4600036D0F /* NSTimer+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29EA1FFA7C4500036D0F /* NSTimer+FXWeakTarget.h */; };
-		292B2A001FFA7C4600036D0F /* NSTimer+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29EB1FFA7C4500036D0F /* NSTimer+FXWeakTarget.m */; };
-		292B2A011FFA7C4600036D0F /* NSUserDefaults+FXSynchronizeSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29EC1FFA7C4500036D0F /* NSUserDefaults+FXSynchronizeSetter.h */; };
-		292B2A021FFA7C4600036D0F /* NSUserDefaults+FXSynchronizeSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29ED1FFA7C4500036D0F /* NSUserDefaults+FXSynchronizeSetter.m */; };
-		292B2A031FFA7C4600036D0F /* UIView+FXOverlayCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29EF1FFA7C4500036D0F /* UIView+FXOverlayCornerRadius.h */; };
-		292B2A041FFA7C4600036D0F /* UIView+FXOverlayCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29F01FFA7C4500036D0F /* UIView+FXOverlayCornerRadius.m */; };
-		292B2A051FFA7C4600036D0F /* FXReuseObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29F21FFA7C4500036D0F /* FXReuseObjectQueue.h */; };
-		292B2A061FFA7C4600036D0F /* FXReuseObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29F31FFA7C4500036D0F /* FXReuseObjectQueue.m */; };
-		292B2A071FFA7C4600036D0F /* FXDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29F51FFA7C4500036D0F /* FXDateUtil.h */; };
-		292B2A081FFA7C4600036D0F /* FXDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29F61FFA7C4500036D0F /* FXDateUtil.m */; };
-		292B2A091FFA7C4600036D0F /* FXFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29F71FFA7C4500036D0F /* FXFileUtil.h */; };
-		292B2A0A1FFA7C4600036D0F /* FXFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29F81FFA7C4500036D0F /* FXFileUtil.m */; };
-		292B2A0B1FFA7C4600036D0F /* FXPageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B29F91FFA7C4500036D0F /* FXPageUtil.h */; };
-		292B2A0C1FFA7C4600036D0F /* FXPageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 292B29FA1FFA7C4500036D0F /* FXPageUtil.m */; };
-		292B2A0E1FFA7C6300036D0F /* FXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 292B2A0D1FFA7C5800036D0F /* FXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294CEA561FFA931800E7F953 /* FXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA541FFA931800E7F953 /* FXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294CEA591FFA931800E7F953 /* FXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294CEA521FFA931800E7F953 /* FXKit.framework */; };
+		294CEA5A1FFA931800E7F953 /* FXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 294CEA521FFA931800E7F953 /* FXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		294CEA771FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA611FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h */; };
+		294CEA781FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA621FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m */; };
+		294CEA791FFA936D00E7F953 /* NSArray+FXRearrange.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA641FFA936D00E7F953 /* NSArray+FXRearrange.h */; };
+		294CEA7A1FFA936D00E7F953 /* NSArray+FXRearrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA651FFA936D00E7F953 /* NSArray+FXRearrange.m */; };
+		294CEA7B1FFA936D00E7F953 /* NSTimer+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA661FFA936D00E7F953 /* NSTimer+FXWeakTarget.h */; };
+		294CEA7C1FFA936D00E7F953 /* NSTimer+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA671FFA936D00E7F953 /* NSTimer+FXWeakTarget.m */; };
+		294CEA7D1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA681FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h */; };
+		294CEA7E1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA691FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m */; };
+		294CEA7F1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA6B1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h */; };
+		294CEA801FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA6C1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.m */; };
+		294CEA811FFA936D00E7F953 /* FXDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA6E1FFA936D00E7F953 /* FXDateUtil.h */; };
+		294CEA821FFA936D00E7F953 /* FXDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA6F1FFA936D00E7F953 /* FXDateUtil.m */; };
+		294CEA831FFA936D00E7F953 /* FXFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA701FFA936D00E7F953 /* FXFileUtil.h */; };
+		294CEA841FFA936D00E7F953 /* FXFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA711FFA936D00E7F953 /* FXFileUtil.m */; };
+		294CEA851FFA936D00E7F953 /* FXPageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA721FFA936D00E7F953 /* FXPageUtil.h */; };
+		294CEA861FFA936D00E7F953 /* FXPageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA731FFA936D00E7F953 /* FXPageUtil.m */; };
+		294CEA871FFA936D00E7F953 /* FXReuseObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */; };
+		294CEA881FFA936D00E7F953 /* FXReuseObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA761FFA936D00E7F953 /* FXReuseObjectQueue.m */; };
 		2968F2481FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 2968F2471FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m */; };
 		29B3B82F1F9E14F400F3579A /* NSTimer+FXWeakTargetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B3B82E1F9E14F400F3579A /* NSTimer+FXWeakTargetTest.m */; };
 		29D170DB1F98C8980062EB13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D170DA1F98C8980062EB13 /* AppDelegate.m */; };
@@ -43,12 +42,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		292B29DB1FFA7C2400036D0F /* PBXContainerItemProxy */ = {
+		294CEA571FFA931800E7F953 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29D170CE1F98C8980062EB13 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 292B29D51FFA7C2400036D0F;
-			remoteInfo = FXKitFramework;
+			remoteGlobalIDString = 294CEA511FFA931800E7F953;
+			remoteInfo = FXKit;
 		};
 		29FC2C151F9CBCF5007FD0AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				292B29DE1FFA7C2400036D0F /* FXKitFramework.framework in Embed Frameworks */,
+				294CEA5A1FFA931800E7F953 /* FXKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,28 +73,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		292B29D61FFA7C2400036D0F /* FXKitFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXKitFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		292B29D81FFA7C2400036D0F /* FXKitFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXKitFramework.h; sourceTree = "<group>"; };
-		292B29D91FFA7C2400036D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		292B29E51FFA7C4500036D0F /* CADisplayLink+FXWeakTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+FXWeakTarget.h"; sourceTree = "<group>"; };
-		292B29E61FFA7C4500036D0F /* CADisplayLink+FXWeakTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+FXWeakTarget.m"; sourceTree = "<group>"; };
-		292B29E81FFA7C4500036D0F /* NSArray+FXRearrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FXRearrange.h"; sourceTree = "<group>"; };
-		292B29E91FFA7C4500036D0F /* NSArray+FXRearrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FXRearrange.m"; sourceTree = "<group>"; };
-		292B29EA1FFA7C4500036D0F /* NSTimer+FXWeakTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+FXWeakTarget.h"; sourceTree = "<group>"; };
-		292B29EB1FFA7C4500036D0F /* NSTimer+FXWeakTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FXWeakTarget.m"; sourceTree = "<group>"; };
-		292B29EC1FFA7C4500036D0F /* NSUserDefaults+FXSynchronizeSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+FXSynchronizeSetter.h"; sourceTree = "<group>"; };
-		292B29ED1FFA7C4500036D0F /* NSUserDefaults+FXSynchronizeSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+FXSynchronizeSetter.m"; sourceTree = "<group>"; };
-		292B29EF1FFA7C4500036D0F /* UIView+FXOverlayCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FXOverlayCornerRadius.h"; sourceTree = "<group>"; };
-		292B29F01FFA7C4500036D0F /* UIView+FXOverlayCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FXOverlayCornerRadius.m"; sourceTree = "<group>"; };
-		292B29F21FFA7C4500036D0F /* FXReuseObjectQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXReuseObjectQueue.h; sourceTree = "<group>"; };
-		292B29F31FFA7C4500036D0F /* FXReuseObjectQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXReuseObjectQueue.m; sourceTree = "<group>"; };
-		292B29F51FFA7C4500036D0F /* FXDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDateUtil.h; sourceTree = "<group>"; };
-		292B29F61FFA7C4500036D0F /* FXDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXDateUtil.m; sourceTree = "<group>"; };
-		292B29F71FFA7C4500036D0F /* FXFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXFileUtil.h; sourceTree = "<group>"; };
-		292B29F81FFA7C4500036D0F /* FXFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXFileUtil.m; sourceTree = "<group>"; };
-		292B29F91FFA7C4500036D0F /* FXPageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPageUtil.h; sourceTree = "<group>"; };
-		292B29FA1FFA7C4500036D0F /* FXPageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPageUtil.m; sourceTree = "<group>"; };
-		292B2A0D1FFA7C5800036D0F /* FXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXKit.h; sourceTree = "<group>"; };
+		294CEA521FFA931800E7F953 /* FXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		294CEA541FFA931800E7F953 /* FXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXKit.h; sourceTree = "<group>"; };
+		294CEA551FFA931800E7F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294CEA5E1FFA933F00E7F953 /* FXKitPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXKitPublicHeader.h; sourceTree = "<group>"; };
+		294CEA611FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+FXWeakTarget.h"; sourceTree = "<group>"; };
+		294CEA621FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+FXWeakTarget.m"; sourceTree = "<group>"; };
+		294CEA641FFA936D00E7F953 /* NSArray+FXRearrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FXRearrange.h"; sourceTree = "<group>"; };
+		294CEA651FFA936D00E7F953 /* NSArray+FXRearrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FXRearrange.m"; sourceTree = "<group>"; };
+		294CEA661FFA936D00E7F953 /* NSTimer+FXWeakTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+FXWeakTarget.h"; sourceTree = "<group>"; };
+		294CEA671FFA936D00E7F953 /* NSTimer+FXWeakTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FXWeakTarget.m"; sourceTree = "<group>"; };
+		294CEA681FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+FXSynchronizeSetter.h"; sourceTree = "<group>"; };
+		294CEA691FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+FXSynchronizeSetter.m"; sourceTree = "<group>"; };
+		294CEA6B1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FXOverlayCornerRadius.h"; sourceTree = "<group>"; };
+		294CEA6C1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FXOverlayCornerRadius.m"; sourceTree = "<group>"; };
+		294CEA6E1FFA936D00E7F953 /* FXDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDateUtil.h; sourceTree = "<group>"; };
+		294CEA6F1FFA936D00E7F953 /* FXDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXDateUtil.m; sourceTree = "<group>"; };
+		294CEA701FFA936D00E7F953 /* FXFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXFileUtil.h; sourceTree = "<group>"; };
+		294CEA711FFA936D00E7F953 /* FXFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXFileUtil.m; sourceTree = "<group>"; };
+		294CEA721FFA936D00E7F953 /* FXPageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPageUtil.h; sourceTree = "<group>"; };
+		294CEA731FFA936D00E7F953 /* FXPageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPageUtil.m; sourceTree = "<group>"; };
+		294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXReuseObjectQueue.h; sourceTree = "<group>"; };
+		294CEA761FFA936D00E7F953 /* FXReuseObjectQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXReuseObjectQueue.m; sourceTree = "<group>"; };
 		2968F2471FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+FXWeakTarget.m"; sourceTree = "<group>"; };
 		29B3B82E1F9E14F400F3579A /* NSTimer+FXWeakTargetTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FXWeakTargetTest.m"; sourceTree = "<group>"; };
 		29D170D61F98C8980062EB13 /* FXKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +119,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		292B29D21FFA7C2400036D0F /* Frameworks */ = {
+		294CEA4E1FFA931800E7F953 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,8 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292B29DD1FFA7C2400036D0F /* FXKitFramework.framework in Frameworks */,
 				FB5413D87D296C54AF9CF24B /* libPods-FXKitDemo.a in Frameworks */,
+				294CEA591FFA931800E7F953 /* FXKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,88 +146,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		292B29D71FFA7C2400036D0F /* FXKitFramework */ = {
+		294CEA531FFA931800E7F953 /* FXKit */ = {
 			isa = PBXGroup;
 			children = (
-				292B29E21FFA7C4500036D0F /* FXKit */,
-				292B29D91FFA7C2400036D0F /* Info.plist */,
-			);
-			path = FXKitFramework;
-			sourceTree = "<group>";
-		};
-		292B29E21FFA7C4500036D0F /* FXKit */ = {
-			isa = PBXGroup;
-			children = (
-				292B29D81FFA7C2400036D0F /* FXKitFramework.h */,
-				292B2A0D1FFA7C5800036D0F /* FXKit.h */,
-				292B29E31FFA7C4500036D0F /* Category */,
-				292B29F11FFA7C4500036D0F /* Enhancement */,
-				292B29F41FFA7C4500036D0F /* Util */,
+				294CEA5F1FFA936D00E7F953 /* Category */,
+				294CEA741FFA936D00E7F953 /* Enhancement */,
+				294CEA6D1FFA936D00E7F953 /* Util */,
+				294CEA541FFA931800E7F953 /* FXKit.h */,
+				294CEA551FFA931800E7F953 /* Info.plist */,
+				294CEA5E1FFA933F00E7F953 /* FXKitPublicHeader.h */,
 			);
 			path = FXKit;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
-		292B29E31FFA7C4500036D0F /* Category */ = {
+		294CEA5F1FFA936D00E7F953 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				292B29E41FFA7C4500036D0F /* CAPrefix */,
-				292B29E71FFA7C4500036D0F /* NSPrefix */,
-				292B29EE1FFA7C4500036D0F /* UIPrefix */,
+				294CEA601FFA936D00E7F953 /* CAPrefix */,
+				294CEA631FFA936D00E7F953 /* NSPrefix */,
+				294CEA6A1FFA936D00E7F953 /* UIPrefix */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		292B29E41FFA7C4500036D0F /* CAPrefix */ = {
+		294CEA601FFA936D00E7F953 /* CAPrefix */ = {
 			isa = PBXGroup;
 			children = (
-				292B29E51FFA7C4500036D0F /* CADisplayLink+FXWeakTarget.h */,
-				292B29E61FFA7C4500036D0F /* CADisplayLink+FXWeakTarget.m */,
+				294CEA611FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h */,
+				294CEA621FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m */,
 			);
 			path = CAPrefix;
 			sourceTree = "<group>";
 		};
-		292B29E71FFA7C4500036D0F /* NSPrefix */ = {
+		294CEA631FFA936D00E7F953 /* NSPrefix */ = {
 			isa = PBXGroup;
 			children = (
-				292B29E81FFA7C4500036D0F /* NSArray+FXRearrange.h */,
-				292B29E91FFA7C4500036D0F /* NSArray+FXRearrange.m */,
-				292B29EA1FFA7C4500036D0F /* NSTimer+FXWeakTarget.h */,
-				292B29EB1FFA7C4500036D0F /* NSTimer+FXWeakTarget.m */,
-				292B29EC1FFA7C4500036D0F /* NSUserDefaults+FXSynchronizeSetter.h */,
-				292B29ED1FFA7C4500036D0F /* NSUserDefaults+FXSynchronizeSetter.m */,
+				294CEA641FFA936D00E7F953 /* NSArray+FXRearrange.h */,
+				294CEA651FFA936D00E7F953 /* NSArray+FXRearrange.m */,
+				294CEA661FFA936D00E7F953 /* NSTimer+FXWeakTarget.h */,
+				294CEA671FFA936D00E7F953 /* NSTimer+FXWeakTarget.m */,
+				294CEA681FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h */,
+				294CEA691FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m */,
 			);
 			path = NSPrefix;
 			sourceTree = "<group>";
 		};
-		292B29EE1FFA7C4500036D0F /* UIPrefix */ = {
+		294CEA6A1FFA936D00E7F953 /* UIPrefix */ = {
 			isa = PBXGroup;
 			children = (
-				292B29EF1FFA7C4500036D0F /* UIView+FXOverlayCornerRadius.h */,
-				292B29F01FFA7C4500036D0F /* UIView+FXOverlayCornerRadius.m */,
+				294CEA6B1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h */,
+				294CEA6C1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.m */,
 			);
 			path = UIPrefix;
 			sourceTree = "<group>";
 		};
-		292B29F11FFA7C4500036D0F /* Enhancement */ = {
+		294CEA6D1FFA936D00E7F953 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				292B29F21FFA7C4500036D0F /* FXReuseObjectQueue.h */,
-				292B29F31FFA7C4500036D0F /* FXReuseObjectQueue.m */,
-			);
-			path = Enhancement;
-			sourceTree = "<group>";
-		};
-		292B29F41FFA7C4500036D0F /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				292B29F51FFA7C4500036D0F /* FXDateUtil.h */,
-				292B29F61FFA7C4500036D0F /* FXDateUtil.m */,
-				292B29F71FFA7C4500036D0F /* FXFileUtil.h */,
-				292B29F81FFA7C4500036D0F /* FXFileUtil.m */,
-				292B29F91FFA7C4500036D0F /* FXPageUtil.h */,
-				292B29FA1FFA7C4500036D0F /* FXPageUtil.m */,
+				294CEA6E1FFA936D00E7F953 /* FXDateUtil.h */,
+				294CEA6F1FFA936D00E7F953 /* FXDateUtil.m */,
+				294CEA701FFA936D00E7F953 /* FXFileUtil.h */,
+				294CEA711FFA936D00E7F953 /* FXFileUtil.m */,
+				294CEA721FFA936D00E7F953 /* FXPageUtil.h */,
+				294CEA731FFA936D00E7F953 /* FXPageUtil.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		294CEA741FFA936D00E7F953 /* Enhancement */ = {
+			isa = PBXGroup;
+			children = (
+				294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */,
+				294CEA761FFA936D00E7F953 /* FXReuseObjectQueue.m */,
+			);
+			path = Enhancement;
 			sourceTree = "<group>";
 		};
 		2968F2461FA2065200C79112 /* CPrefixTests */ = {
@@ -242,9 +233,9 @@
 		29D170CD1F98C8980062EB13 = {
 			isa = PBXGroup;
 			children = (
+				294CEA531FFA931800E7F953 /* FXKit */,
 				29D170D81F98C8980062EB13 /* FXKitDemo */,
 				29FC2C111F9CBCF5007FD0AB /* FXKitDemoTests */,
-				292B29D71FFA7C2400036D0F /* FXKitFramework */,
 				29D170D71F98C8980062EB13 /* Products */,
 				E1379160514EB965ADE747FD /* Pods */,
 				F90E5B836006FFA93552218B /* Frameworks */,
@@ -256,7 +247,7 @@
 			children = (
 				29D170D61F98C8980062EB13 /* FXKitDemo.app */,
 				29FC2C101F9CBCF5007FD0AB /* FXKitDemoTests.xctest */,
-				292B29D61FFA7C2400036D0F /* FXKitFramework.framework */,
+				294CEA521FFA931800E7F953 /* FXKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,43 +350,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		292B29D31FFA7C2400036D0F /* Headers */ = {
+		294CEA4F1FFA931800E7F953 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292B2A0E1FFA7C6300036D0F /* FXKit.h in Headers */,
-				292B29FD1FFA7C4600036D0F /* NSArray+FXRearrange.h in Headers */,
-				292B2A0B1FFA7C4600036D0F /* FXPageUtil.h in Headers */,
-				292B2A031FFA7C4600036D0F /* UIView+FXOverlayCornerRadius.h in Headers */,
-				292B2A011FFA7C4600036D0F /* NSUserDefaults+FXSynchronizeSetter.h in Headers */,
-				292B29FB1FFA7C4600036D0F /* CADisplayLink+FXWeakTarget.h in Headers */,
-				292B2A071FFA7C4600036D0F /* FXDateUtil.h in Headers */,
-				292B29FF1FFA7C4600036D0F /* NSTimer+FXWeakTarget.h in Headers */,
-				292B29DA1FFA7C2400036D0F /* FXKitFramework.h in Headers */,
-				292B2A091FFA7C4600036D0F /* FXFileUtil.h in Headers */,
-				292B2A051FFA7C4600036D0F /* FXReuseObjectQueue.h in Headers */,
+				294CEA791FFA936D00E7F953 /* NSArray+FXRearrange.h in Headers */,
+				294CEA7F1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h in Headers */,
+				294CEA811FFA936D00E7F953 /* FXDateUtil.h in Headers */,
+				294CEA7D1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h in Headers */,
+				294CEA771FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h in Headers */,
+				294CEA7B1FFA936D00E7F953 /* NSTimer+FXWeakTarget.h in Headers */,
+				294CEA871FFA936D00E7F953 /* FXReuseObjectQueue.h in Headers */,
+				294CEA831FFA936D00E7F953 /* FXFileUtil.h in Headers */,
+				294CEA851FFA936D00E7F953 /* FXPageUtil.h in Headers */,
+				294CEA561FFA931800E7F953 /* FXKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		292B29D51FFA7C2400036D0F /* FXKitFramework */ = {
+		294CEA511FFA931800E7F953 /* FXKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 292B29E11FFA7C2400036D0F /* Build configuration list for PBXNativeTarget "FXKitFramework" */;
+			buildConfigurationList = 294CEA5B1FFA931800E7F953 /* Build configuration list for PBXNativeTarget "FXKit" */;
 			buildPhases = (
-				292B29D11FFA7C2400036D0F /* Sources */,
-				292B29D21FFA7C2400036D0F /* Frameworks */,
-				292B29D31FFA7C2400036D0F /* Headers */,
-				292B29D41FFA7C2400036D0F /* Resources */,
+				294CEA4D1FFA931800E7F953 /* Sources */,
+				294CEA4E1FFA931800E7F953 /* Frameworks */,
+				294CEA4F1FFA931800E7F953 /* Headers */,
+				294CEA501FFA931800E7F953 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FXKitFramework;
-			productName = FXKitFramework;
-			productReference = 292B29D61FFA7C2400036D0F /* FXKitFramework.framework */;
+			name = FXKit;
+			productName = FXKit;
+			productReference = 294CEA521FFA931800E7F953 /* FXKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		29D170D51F98C8980062EB13 /* FXKitDemo */ = {
@@ -413,7 +403,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				292B29DC1FFA7C2400036D0F /* PBXTargetDependency */,
+				294CEA581FFA931800E7F953 /* PBXTargetDependency */,
 			);
 			name = FXKitDemo;
 			productName = FXKitDemo;
@@ -450,7 +440,7 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = ShawnFoo;
 				TargetAttributes = {
-					292B29D51FFA7C2400036D0F = {
+					294CEA511FFA931800E7F953 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -478,15 +468,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				294CEA511FFA931800E7F953 /* FXKit */,
 				29D170D51F98C8980062EB13 /* FXKitDemo */,
-				292B29D51FFA7C2400036D0F /* FXKitFramework */,
 				29FC2C0F1F9CBCF5007FD0AB /* FXKitDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		292B29D41FFA7C2400036D0F /* Resources */ = {
+		294CEA501FFA931800E7F953 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -613,19 +603,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		292B29D11FFA7C2400036D0F /* Sources */ = {
+		294CEA4D1FFA931800E7F953 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292B2A041FFA7C4600036D0F /* UIView+FXOverlayCornerRadius.m in Sources */,
-				292B2A061FFA7C4600036D0F /* FXReuseObjectQueue.m in Sources */,
-				292B29FE1FFA7C4600036D0F /* NSArray+FXRearrange.m in Sources */,
-				292B2A0A1FFA7C4600036D0F /* FXFileUtil.m in Sources */,
-				292B2A001FFA7C4600036D0F /* NSTimer+FXWeakTarget.m in Sources */,
-				292B29FC1FFA7C4600036D0F /* CADisplayLink+FXWeakTarget.m in Sources */,
-				292B2A081FFA7C4600036D0F /* FXDateUtil.m in Sources */,
-				292B2A021FFA7C4600036D0F /* NSUserDefaults+FXSynchronizeSetter.m in Sources */,
-				292B2A0C1FFA7C4600036D0F /* FXPageUtil.m in Sources */,
+				294CEA861FFA936D00E7F953 /* FXPageUtil.m in Sources */,
+				294CEA801FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.m in Sources */,
+				294CEA7A1FFA936D00E7F953 /* NSArray+FXRearrange.m in Sources */,
+				294CEA7C1FFA936D00E7F953 /* NSTimer+FXWeakTarget.m in Sources */,
+				294CEA881FFA936D00E7F953 /* FXReuseObjectQueue.m in Sources */,
+				294CEA841FFA936D00E7F953 /* FXFileUtil.m in Sources */,
+				294CEA821FFA936D00E7F953 /* FXDateUtil.m in Sources */,
+				294CEA781FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m in Sources */,
+				294CEA7E1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,10 +641,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		292B29DC1FFA7C2400036D0F /* PBXTargetDependency */ = {
+		294CEA581FFA931800E7F953 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 292B29D51FFA7C2400036D0F /* FXKitFramework */;
-			targetProxy = 292B29DB1FFA7C2400036D0F /* PBXContainerItemProxy */;
+			target = 294CEA511FFA931800E7F953 /* FXKit */;
+			targetProxy = 294CEA571FFA931800E7F953 /* PBXContainerItemProxy */;
 		};
 		29FC2C161F9CBCF5007FD0AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -683,7 +673,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		292B29DF1FFA7C2400036D0F /* Debug */ = {
+		294CEA5C1FFA931800E7F953 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -694,12 +684,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FXKitFramework/Info.plist;
+				INFOPLIST_FILE = FXKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShawnFoo.FXKitFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShawnFoo.FXKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -708,7 +698,7 @@
 			};
 			name = Debug;
 		};
-		292B29E01FFA7C2400036D0F /* Release */ = {
+		294CEA5D1FFA931800E7F953 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -719,12 +709,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FXKitFramework/Info.plist;
+				INFOPLIST_FILE = FXKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShawnFoo.FXKitFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShawnFoo.FXKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -904,11 +894,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		292B29E11FFA7C2400036D0F /* Build configuration list for PBXNativeTarget "FXKitFramework" */ = {
+		294CEA5B1FFA931800E7F953 /* Build configuration list for PBXNativeTarget "FXKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				292B29DF1FFA7C2400036D0F /* Debug */,
-				292B29E01FFA7C2400036D0F /* Release */,
+				294CEA5C1FFA931800E7F953 /* Debug */,
+				294CEA5D1FFA931800E7F953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
