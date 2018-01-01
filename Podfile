@@ -1,6 +1,6 @@
 platform :ios, '8.0'
 target 'FXKitDemo' do
-  # pod 'FXKit', git: 'https://github.com/ShawnFoo/FXKit.git', branch: 'v0.0.1'
+  # pod 'FXKit', git: 'https://github.com/ShawnFoo/FXKit.git', branch: '0.1'
   pod 'FXKit', :path => '../FXKit'
   post_install do |installer|
     installer.pods_project.targets.each do |target|

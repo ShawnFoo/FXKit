@@ -479,8 +479,8 @@
 			projectRoot = "";
 			targets = (
 				29D170D51F98C8980062EB13 /* FXKitDemo */,
-				29FC2C0F1F9CBCF5007FD0AB /* FXKitDemoTests */,
 				292B29D51FFA7C2400036D0F /* FXKitFramework */,
+				29FC2C0F1F9CBCF5007FD0AB /* FXKitDemoTests */,
 			);
 		};
 /* End PBXProject section */
