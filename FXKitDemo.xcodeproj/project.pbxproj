@@ -28,6 +28,7 @@
 		294CEA861FFA936D00E7F953 /* FXPageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA731FFA936D00E7F953 /* FXPageUtil.m */; };
 		294CEA871FFA936D00E7F953 /* FXReuseObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */; };
 		294CEA881FFA936D00E7F953 /* FXReuseObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA761FFA936D00E7F953 /* FXReuseObjectQueue.m */; };
+		294CEA8B1FFA979B00E7F953 /* FXKitPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA5E1FFA933F00E7F953 /* FXKitPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2968F2481FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 2968F2471FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m */; };
 		29B3B82F1F9E14F400F3579A /* NSTimer+FXWeakTargetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B3B82E1F9E14F400F3579A /* NSTimer+FXWeakTargetTest.m */; };
 		29D170DB1F98C8980062EB13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D170DA1F98C8980062EB13 /* AppDelegate.m */; };
@@ -364,6 +365,7 @@
 				294CEA831FFA936D00E7F953 /* FXFileUtil.h in Headers */,
 				294CEA851FFA936D00E7F953 /* FXPageUtil.h in Headers */,
 				294CEA561FFA931800E7F953 /* FXKit.h in Headers */,
+				294CEA8B1FFA979B00E7F953 /* FXKitPublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
