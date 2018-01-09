@@ -10,23 +10,23 @@
 		294CEA561FFA931800E7F953 /* FXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA541FFA931800E7F953 /* FXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA591FFA931800E7F953 /* FXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294CEA521FFA931800E7F953 /* FXKit.framework */; };
 		294CEA5A1FFA931800E7F953 /* FXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 294CEA521FFA931800E7F953 /* FXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		294CEA771FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA611FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h */; };
+		294CEA771FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA611FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA781FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA621FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m */; };
-		294CEA791FFA936D00E7F953 /* NSArray+FXRearrange.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA641FFA936D00E7F953 /* NSArray+FXRearrange.h */; };
+		294CEA791FFA936D00E7F953 /* NSArray+FXRearrange.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA641FFA936D00E7F953 /* NSArray+FXRearrange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA7A1FFA936D00E7F953 /* NSArray+FXRearrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA651FFA936D00E7F953 /* NSArray+FXRearrange.m */; };
-		294CEA7B1FFA936D00E7F953 /* NSTimer+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA661FFA936D00E7F953 /* NSTimer+FXWeakTarget.h */; };
+		294CEA7B1FFA936D00E7F953 /* NSTimer+FXWeakTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA661FFA936D00E7F953 /* NSTimer+FXWeakTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA7C1FFA936D00E7F953 /* NSTimer+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA671FFA936D00E7F953 /* NSTimer+FXWeakTarget.m */; };
-		294CEA7D1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA681FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h */; };
+		294CEA7D1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA681FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA7E1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA691FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m */; };
-		294CEA7F1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA6B1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h */; };
+		294CEA7F1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA6B1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA801FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA6C1FFA936D00E7F953 /* UIView+FXOverlayCornerRadius.m */; };
-		294CEA811FFA936D00E7F953 /* FXDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA6E1FFA936D00E7F953 /* FXDateUtil.h */; };
+		294CEA811FFA936D00E7F953 /* FXDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA6E1FFA936D00E7F953 /* FXDateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA821FFA936D00E7F953 /* FXDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA6F1FFA936D00E7F953 /* FXDateUtil.m */; };
-		294CEA831FFA936D00E7F953 /* FXFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA701FFA936D00E7F953 /* FXFileUtil.h */; };
+		294CEA831FFA936D00E7F953 /* FXFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA701FFA936D00E7F953 /* FXFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA841FFA936D00E7F953 /* FXFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA711FFA936D00E7F953 /* FXFileUtil.m */; };
-		294CEA851FFA936D00E7F953 /* FXPageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA721FFA936D00E7F953 /* FXPageUtil.h */; };
+		294CEA851FFA936D00E7F953 /* FXPageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA721FFA936D00E7F953 /* FXPageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA861FFA936D00E7F953 /* FXPageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA731FFA936D00E7F953 /* FXPageUtil.m */; };
-		294CEA871FFA936D00E7F953 /* FXReuseObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */; };
+		294CEA871FFA936D00E7F953 /* FXReuseObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA881FFA936D00E7F953 /* FXReuseObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA761FFA936D00E7F953 /* FXReuseObjectQueue.m */; };
 		294CEA8B1FFA979B00E7F953 /* FXKitPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA5E1FFA933F00E7F953 /* FXKitPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2968F2481FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 2968F2471FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m */; };
@@ -37,6 +37,9 @@
 		29D170E31F98C8980062EB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D170E21F98C8980062EB13 /* Assets.xcassets */; };
 		29D170E61F98C8980062EB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D170E41F98C8980062EB13 /* LaunchScreen.storyboard */; };
 		29D170E91F98C8980062EB13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D170E81F98C8980062EB13 /* main.m */; };
+		29DB844C2005194C0026295D /* FXDeallocMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DB844A2005194C0026295D /* FXDeallocMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29DB844D2005194C0026295D /* FXDeallocMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB844B2005194C0026295D /* FXDeallocMonitor.m */; };
+		29DB844E20051FA40026295D /* FXDeallocMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB844B2005194C0026295D /* FXDeallocMonitor.m */; };
 		29FC2C071F9CBB21007FD0AB /* IndexDataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29FC2C061F9CBB21007FD0AB /* IndexDataSource.plist */; };
 		5391898C364E1D82440175D6 /* libPods-FXKitDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 830F65E4F8D2D559BECDBA57 /* libPods-FXKitDemoTests.a */; };
 		FB5413D87D296C54AF9CF24B /* libPods-FXKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F70C22E281F6629E546070DC /* libPods-FXKitDemo.a */; };
@@ -108,6 +111,8 @@
 		29D170E51F98C8980062EB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29D170E71F98C8980062EB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29D170E81F98C8980062EB13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29DB844A2005194C0026295D /* FXDeallocMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDeallocMonitor.h; sourceTree = "<group>"; };
+		29DB844B2005194C0026295D /* FXDeallocMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXDeallocMonitor.m; sourceTree = "<group>"; };
 		29FC2C061F9CBB21007FD0AB /* IndexDataSource.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IndexDataSource.plist; sourceTree = "<group>"; };
 		29FC2C101F9CBCF5007FD0AB /* FXKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC2C141F9CBCF5007FD0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -219,6 +224,8 @@
 			children = (
 				294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */,
 				294CEA761FFA936D00E7F953 /* FXReuseObjectQueue.m */,
+				29DB844A2005194C0026295D /* FXDeallocMonitor.h */,
+				29DB844B2005194C0026295D /* FXDeallocMonitor.m */,
 			);
 			path = Enhancement;
 			sourceTree = "<group>";
@@ -365,6 +372,7 @@
 				294CEA831FFA936D00E7F953 /* FXFileUtil.h in Headers */,
 				294CEA851FFA936D00E7F953 /* FXPageUtil.h in Headers */,
 				294CEA561FFA931800E7F953 /* FXKit.h in Headers */,
+				29DB844C2005194C0026295D /* FXDeallocMonitor.h in Headers */,
 				294CEA8B1FFA979B00E7F953 /* FXKitPublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,6 +624,7 @@
 				294CEA881FFA936D00E7F953 /* FXReuseObjectQueue.m in Sources */,
 				294CEA841FFA936D00E7F953 /* FXFileUtil.m in Sources */,
 				294CEA821FFA936D00E7F953 /* FXDateUtil.m in Sources */,
+				29DB844D2005194C0026295D /* FXDeallocMonitor.m in Sources */,
 				294CEA781FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m in Sources */,
 				294CEA7E1FFA936D00E7F953 /* NSUserDefaults+FXSynchronizeSetter.m in Sources */,
 			);
@@ -628,6 +637,7 @@
 				29D170DE1F98C8980062EB13 /* IndexViewController.m in Sources */,
 				29D170E91F98C8980062EB13 /* main.m in Sources */,
 				29D170DB1F98C8980062EB13 /* AppDelegate.m in Sources */,
+				29DB844E20051FA40026295D /* FXDeallocMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

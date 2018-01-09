@@ -106,7 +106,8 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (void)dealloc {
-	_deallocBlock();
+	dispatch_async(dispatch_get_main_queue(), _deallocBlock);
+	_deallocBlock = nil;
 }
 
 @end

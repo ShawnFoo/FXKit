@@ -124,7 +124,8 @@
 }
 
 - (void)dealloc {
-	_deallocBlock();
+	dispatch_async(dispatch_get_main_queue(), _deallocBlock);
+	_deallocBlock = nil;
 }
 
 @end
