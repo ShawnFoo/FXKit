@@ -28,7 +28,6 @@
 		294CEA861FFA936D00E7F953 /* FXPageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA731FFA936D00E7F953 /* FXPageUtil.m */; };
 		294CEA871FFA936D00E7F953 /* FXReuseObjectQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA751FFA936D00E7F953 /* FXReuseObjectQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		294CEA881FFA936D00E7F953 /* FXReuseObjectQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CEA761FFA936D00E7F953 /* FXReuseObjectQueue.m */; };
-		294CEA8B1FFA979B00E7F953 /* FXKitPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 294CEA5E1FFA933F00E7F953 /* FXKitPublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2968F2481FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 2968F2471FA2067A00C79112 /* CADisplayLink+FXWeakTarget.m */; };
 		29B3B82F1F9E14F400F3579A /* NSTimer+FXWeakTargetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B3B82E1F9E14F400F3579A /* NSTimer+FXWeakTargetTest.m */; };
 		29D170DB1F98C8980062EB13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D170DA1F98C8980062EB13 /* AppDelegate.m */; };
@@ -80,7 +79,6 @@
 		294CEA521FFA931800E7F953 /* FXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		294CEA541FFA931800E7F953 /* FXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXKit.h; sourceTree = "<group>"; };
 		294CEA551FFA931800E7F953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		294CEA5E1FFA933F00E7F953 /* FXKitPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXKitPublicHeader.h; sourceTree = "<group>"; };
 		294CEA611FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+FXWeakTarget.h"; sourceTree = "<group>"; };
 		294CEA621FFA936D00E7F953 /* CADisplayLink+FXWeakTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+FXWeakTarget.m"; sourceTree = "<group>"; };
 		294CEA641FFA936D00E7F953 /* NSArray+FXRearrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FXRearrange.h"; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 				294CEA6D1FFA936D00E7F953 /* Util */,
 				294CEA541FFA931800E7F953 /* FXKit.h */,
 				294CEA551FFA931800E7F953 /* Info.plist */,
-				294CEA5E1FFA933F00E7F953 /* FXKitPublicHeader.h */,
 			);
 			path = FXKit;
 			sourceTree = "<group>";
@@ -373,7 +370,6 @@
 				294CEA851FFA936D00E7F953 /* FXPageUtil.h in Headers */,
 				294CEA561FFA931800E7F953 /* FXKit.h in Headers */,
 				29DB844C2005194C0026295D /* FXDeallocMonitor.h in Headers */,
-				294CEA8B1FFA979B00E7F953 /* FXKitPublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,7 +694,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FXKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShawnFoo.FXKit;
@@ -723,7 +719,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FXKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShawnFoo.FXKit;
